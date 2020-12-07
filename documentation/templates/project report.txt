@@ -1,0 +1,14 @@
+# min requirements as per mentioned in the rules
+1. Cover Page &amp; Title page
+2. Certificate by the Guide
+3. Declaration by the Student
+4. Acknowledgment
+5. Abstract (1-2 pages long)
+6. Organization of report
+7. Table of Contents
+8. List of figures
+9. List of tables
+10. abbreviations
+11. Chapters
+12. References
+13. Appendices

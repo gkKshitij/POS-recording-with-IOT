@@ -1,0 +1,48 @@
+# POS record with IOT
+Point of Sales tracking through Internet of Things
+
+1st concept with raspberrypi.(functionality with flexibility)
+(can be easily executed with base script for minimal functionality of detecting a person)
+ADVANTAGES
+	All in one functionality
+	Extremely flexible
+	Future Proof
+	Ample of resources
+	No requirement of extensions
+	Seamless upgradation
+	No skill required
+	Handle the sync functionality on its own
+LIMITATIONS
+	Expensive
+	Power requirement is high
+
+Future Scope
+-Add the sync functionality and any other if possible.
+
+
+
+2nd concept was with help of audrino-uno.(balanced)
+(can be easily executed with posiot.ino script[with any audrino flasher] for minimal functionality of detecting a person)
+ADVANTAGES
+	Comparatively Affordable
+	Moderate power requirement
+LIMITATIONS
+	Requires extra modules and extensions
+	Comparatively skilled labor required
+	Requires external source for computation
+
+
+
+3rd concept was with esp8266.(cheap)
+ADVANTAGES
+	Very cheap
+	Semi-skilled labor required
+	Minimal power requirement
+LIMITATIONS
+	Requires external source for computation
+	Not much scope for future upgrades
+
+ 
+ 
+ 
+ 	
