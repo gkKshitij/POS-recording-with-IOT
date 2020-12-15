@@ -1,0 +1,28 @@
+*	Already received the approval to continue the further development of the project.
+*	Made a list of required materials for the project and their respective cost.
+*	Temporarily dumped all the documentation stuff under a single folder and will deal with it separately afterwards. (needs serious work and heavy changes and updates if possible)
+1st December 2020
+•	The basic functionality has been established and is successfully working with Arduino.
+	o	Esp8266 is under process
+	o	And it seems to give continuous high signals with raspberrypi
+•	Fine tuning the settings of HC-SR501 to function to work as expected.
+•	Setting up of IOT server on raspberrypi failed due to unknown reason.
+	o	Will be planning to work with cloud version
+7th Dec 2020
+•	The HC-SR501 seems to be sending continuous high-status signals.
+	o	Troubleshooting led to a conclusion of unresponsive/broke down sensor.
+		*	(ordered a new one on 7th Dec)
+14th Dec 2020
+•	Completed the Arduino and raspberrypi’s hardware co-ordination according to the requirement (the detection distance adjustment and time/sleep variable adjustments)
+•	While working with ESP8266 faced a critical Arduino library compilation error
+	o	Which I tried finding a workaround by deleting the debug function
+		*	It eventually partially worked as I was now able to burn the code with FTDI but instead resulted in excessive heating of the esp8266 board during the operation [currently not tested the actual functioning due to heating issues]
+15th Dec 2020
+•	Had a project progress meeting with the project manager i.e Milind Sir.
+	o	In the discussion it was observed that due to uncertainty and unreliability 
+		[in other words particular to this project, a possible low inaccuracy rate of the sensor HC-SR01] due to factors like
+		*	Ambient temperature (mainly in hot regions in India)
+		*	Inverted cone of detection
+			•	Also resulting in coinciding with the neighbor sensors.
+			•	And also detecting crowd that is not in the expected range
+		it was decided to also work on the ultrasonic sensor (HCSR04) more dominantly due to its more reliable features like high accuracy and possibility to adjust the distance in the software itself. (and many others advantages that will be updated in future)
